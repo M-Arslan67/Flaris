@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Floris</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+    }
+
+    .main {
+      width: 100%;
+      height: 780px;
+      background-image: url(./flaris/header_banner_home_filtr.jpg);
+      background-position-y: -270px;
+    }
+
+    .navbar {
+      width: 100%;
+      height: 120px;
+
+    }
+
+    .logo {
+      width: 300px;
+      height: 120px
+    }
+
+    .logo1 {
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+
+    .nav {
+      width: 800px;
+      height: 100px;
+      margin-left: 510px;
+      margin-top: -110px;
+    }
+
+    .nav ul {
+      list-style: none;
+    }
+
+    .nav ul li {
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 30px;
+    }
+
+    .nav ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    .nav1 {
+      margin-left: 700px;
+      top: 35px;
+      position: absolute;
+    }
+
+    .nav2 {
+      margin-left: 750px;
+      position: absolute;
+      top: 35px;
+    }
+
+    .flaris {
+      color: rgb(0, 170, 255);
+      text-align: center;
+      font-size: 29px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-weight: 700px;
+    }
+
+    .flaris1 {
+      font-family: Barlow, Helvetica, Arial, Lucida,
+        sans-serif;
+      font-size: 37px;
+      font-weight: 700px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      line-height: 48.1px;
+      margin-top: 15px;
+    }
+
+    .main1 {
+      background-image: url(./flaris/rewolucja_w_lotnictwie.jpg);
+      width: 100%;
+      height: 800px;
+      padding: 1px;
+    }
+
+    .breakthrough {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 29px;
+      font-weight: 700;
+      line-height: 29px;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      margin-top: 100px;
+
+    }
+
+    .breakthrough1 {
+      margin-top: 50px;
+      text-align: center;
+      color: rgb(126, 110, 106);
+    }
+
+    .main2 {
+      width: 100%;
+      height: 1300px;
+      padding: 1px;
+    }
+
+    .spectecular {
+      font-size: 29px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      margin-top: 100px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .extensive {
+      margin-top: 80px;
+      text-align: center;
+      line-height: 25px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      color: rgb(130, 111, 106);
+
+    }
+
+    .aircraft {
+
+      width: 1350px;
+      height: 100px;
+      margin-top: 100px;
+      margin-left: 80px;
+    }
+
+    .air {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(81, 82, 84);
+      font-size: 17px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+
+    .craft {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(81, 82, 84);
+      font-size: 17px;
+      font-weight: 700;
+      margin-left: 500px;
+      margin-top: -20px;
+    }
+
+    .type {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(81, 82, 84);
+      font-size: 17px;
+      font-weight: 700;
+      margin-left: 1000px;
+      margin-top: -20px;
+    }
+
+    .lar {
+      width: 1350px;
+      height: 100px;
+      border: 1px solid rgb(81, 82, 84);
+      top: 0px;
+      left: 80px;
+      position: relative;
+    }
+
+    .lar1 {
+      margin-top: 35px;
+      margin-left: 20px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(81, 82, 84);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .lar2 {
+      margin-left: 500px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(81, 82, 84);
+      font-size: 17px;
+      font-weight: 700;
+      margin-top: -20px;
+    }
+
+    .lar3 {
+      margin-left: 700px;
+      position: absolute;
+      top: 50px;
+    }
+
+    .lar4 {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(81, 82, 84);
+      font-size: 17px;
+      font-weight: 700;
+      margin-left: 1000px;
+      margin-top: -20px;
+    }
+
+    .lar5 {
+      margin-left: 1180px;
+      position: absolute;
+      top: 50px;
+    }
+
+    .single {
+      width: 1350px;
+      height: 100px;
+      border: 1px solid black;
+      margin-top: 30px;
+      margin-left: 80px;
+      position: relative;
+    }
+
+    .single1 {
+      margin-top: 35px;
+      margin-left: 20px;
+      color: rgb(86, 82, 84);
+    }
+
+    .single2 {
+      margin-left: 500px;
+      margin-top: -20px;
+      color: rgb(86, 82, 84);
+    }
+
+    .single3 {
+      margin-left: 700px;
+      position: absolute;
+      top: 50px;
+    }
+
+    .single4 {
+      margin-left: 1000px;
+      margin-top: -10px;
+      color: rgb(86, 82, 84);
+    }
+
+    .single5 {
+      margin-left: 1180px;
+      position: absolute;
+      top: 50px;
+    }
+
+    .twin-engine {
+      width: 1350px;
+      height: 100px;
+      border: 1px solid rgb(86, 82, 84);
+      margin-top: 30px;
+      margin-left: 80px;
+    }
+
+    .twin1 {
+      margin-left: 20px;
+      margin-top: 35px;
+      color: rgb(86, 82, 84);
+    }
+
+    .twin2 {
+      margin-left: 500px;
+      margin-top: -20px;
+    }
+
+    .twin3 {
+      margin-left: 700px;
+    }
+
+    .twin4 {
+      margin-left: 1000px;
+      margin-top: -30px;
+    }
+
+    .twin5 {
+      margin-inline: 1180px;
+      position: absolute;
+    }
+
+    .turbo {
+      width: 1350px;
+      height: 100px;
+      border: 1px solid rgb(86, 82, 84);
+      margin-top: 30px;
+      margin-left: 80px;
+    }
+
+    .turbo1 {
+      margin-left: 20px;
+      margin-top: 35PX;
+    }
+
+    .turbo2 {
+      margin-left: 500px;
+      margin-top: -10px;
+    }
+
+    .turbo3 {
+      margin-left: 700px;
+      position: absolute;
+    }
+
+    .turbo4 {
+      margin-left: 1000px;
+      margin-top: -15px;
+    }
+
+    .turbo5 {
+      margin-left: 1180px;
+      position: absolute;
+    }
+
+    .pro {
+      width: 1350px;
+      height: 100px;
+      border: 1px solid rgb(86, 82, 84);
+      margin-top: 30px;
+      margin-left: 80px;
+    }
+
+    .pro1 {
+      margin-top: 35px;
+      margin-left: 20px;
+    }
+
+    .pro2 {
+      margin-left: 500px;
+      margin-top: -20px;
+    }
+
+    .pro3 {
+      margin-left: 700px;
+      position: absolute;
+    }
+
+    .pro4 {
+      margin-left: 1000px;
+      margin-top: -10px;
+    }
+
+    .pro5 {
+      margin-left: 1180px;
+      position: absolute;
+    }
+
+    .main3 {
+      width: 100%;
+      height: 1050px;
+      background-image: url(./flaris/flarislar01_filtr.jpg);
+      padding: 1px;
+    }
+
+    .lar01 {
+      text-align: center;
+      margin-top: 100px;
+      font-size: 29px;
+      font-weight: 700;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(255, 255, 255);
+    }
+
+    .lar02 {
+      text-align: center;
+      margin-top: 80px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+    }
+
+    .ownlar {
+      width: 300px;
+      height: 200px;
+      
+      margin-top: 500px;
+      margin-left: 400px;
+      padding: 1px;
+    }
+
+    .own {
+      font-size: 29px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      margin-left: 45px;
+    }
+
+    .own1 {
+      width: 250px;
+      height: 60px;
+      border: 1px solid rgb(0, 161, 219);
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+
+    .check {
+      text-align: center;
+      font-size: 17px;
+      font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+      color: rgb(0, 161, 219);
+      margin-top: 20px;
+    }
+
+    .become {
+      width: 300px;
+      height: 200px;
+      
+      margin-top: -200px;
+      margin-left: 800px;
+      padding: 1px;
+    }
+
+    .pilot {
+      font-size: 29px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      margin-left: 25px;
+    }
+
+    .pilot1 {
+      width: 250px;
+      height: 60px;
+      border: 1px solid rgb(0, 161, 219);
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+
+    .courses {
+      text-align: center;
+      font-size: 17px;
+      font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+      color: rgb(0, 161, 219);
+      margin-top: 20px;
+    }
+
+    .main4 {
+      width: 100%;
+      height: 400px;
+      background-image: url(./flaris/wiadomosci_i_informacje_prasowe_filtr.jpg);
+      background-position: center;
+      padding: 1px;
+    }
+
+    .news {
+      text-align: center;
+      font-size: 29px;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+      margin-top: 150px;
+    }
+
+    .press {
+      width: 150px;
+      height: 50px;
+      border: 1px solid white;
+      margin-left: 700px;
+      margin-top: 30px;
+    }
+
+    .more {
+      color: white;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .main5 {
+      width: 100%;
+      height: 700px;
+      background-color: rgb(30, 30, 30);
+    }
+
+    .logoflaris {
+      width: 200px;
+      height: 70px;
+      border: 1px solid white;
+    }
+
+    .flarislogo {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    .about {
+      width: 700px;
+      height: 450px;
+
+      margin-left: 750px;
+      padding: 1px;
+
+    }
+
+    .about1 {
+      width: 698px;
+      height: 50px;
+
+      margin-top: 2px;
+      margin-left: 2px;
+    }
+
+    .about01 {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 500;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+    }
+
+    .about02 {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 700;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      margin-left: 300px;
+      margin-top: -15px;
+    }
+
+    .about03 {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 700;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      margin-left: 600px;
+      margin-top: -15px;
+    }
+
+    .gdpr {
+      width: 150px;
+      height: 150px;
+
+    }
+
+    .gdpr ul {
+      list-style: none;
+    }
+
+    .gdpr ul li {
+      font-family: Yantramanav, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(204, 204, 204);
+      line-height: 30px;
+
+    }
+
+    .press01 {
+      width: 150px;
+      height: 150px;
+
+      margin-left: 300px;
+      margin-top: -150px;
+    }
+
+    .press01 ul {
+      list-style: none;
+    }
+
+    .press01 ul li {
+      font-family: Yantramanav, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(204, 204, 204);
+      line-height: 30px;
+    }
+
+    .info5 {
+      width: 150px;
+      height: 150px;
+
+      margin-left: 550px;
+      margin-top: -150px;
+    }
+
+    .info5 ul {
+      list-style: none;
+    }
+
+    .info5 ul li {
+      font-family: Yantramanav, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(204, 204, 204);
+      line-height: 30px;
+      margin-left: 50px;
+
+    }
+
+    .sign5 {
+      width: 700px;
+      height: 220px;
+      padding: 1px;
+    }
+
+    .signup5 {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+    }
+
+    .email {
+      width: 700px;
+      height: 50px;
+
+      background-color: white;
+      margin-top: 70px;
+      border-radius: 3px;
+      padding: 1px;
+    }
+
+    .email1 {
+      color: grey;
+      margin-left: 30px;
+      margin-top: 25px;
+      margin-top: 15px;
+    }
+
+    .sign51 {
+      width: 700px;
+      height: 50px;
+      margin-top: 15px;
+      border: 2px solid white;
+      border-radius: 3px;
+    }
+
+    .signup52 {
+      color: white;
+      text-align: center;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 34px;
+
+    }
+
+    .line5 {
+      width: 1400px;
+      border: 1px solid white;
+      margin-left: 50px;
+    }
+
+    .rights {
+      width: 1400px;
+      height: 50px;
+      
+      margin-top: 20px;
+      margin-left: 50px;
+      padding: 1px;
+    }
+
+    .rights5 {
+      margin-top: 10px;
+      color: grey;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      padding: 1px;
+    }
+
+    .youtube {
+      margin-left: 1310px;
+      position: absolute;
+  
+
+    }
+    .fb{
+      margin-left: 1350px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="navbar">
+      <div class="logo">
+        <img class="logo1" src="./flaris/LOGO_FLARIS-1.png" alt="">
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="./Flaris2.html">AIRCRAFT</a></li>
+          <li><a href="./Flaris3.html">PILOTING COURSES</a></li>
+          <li><a href="./Flaris4.html">PURCHASE</a></li>
+          <li><a href="">NEWS</a></li>
+          <li><a href="">OUR STORY</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+        <img class="nav1" src="./flaris/en.png" alt="">
+        <img class="nav2" src="./flaris/pl.png" alt="">
+      </div>
+    </div>
+    <p class="flaris">› FLARIS ‹</p>
+    <p class="flaris1">PERSONAL MOBILITY FOR THE 21ST CENTURY
+    </p>
+  </div>
+
+  <div class="main1">
+    <p class="breakthrough">› A BREAKTHROUGH IN AVIATION ‹</p>
+    <p class="breakthrough1">Flaris LAR 01 defines a new
+      category of personal jet, being the only one able to
+      take off from small grass <br> airstrips. It is easy to
+      fly and offers a much more affordable price and
+      lower maintenance costs than other <br> business aircraft.
+      <br> <br>
+      The affordable cost, low fuel consumption, and simple
+      service procedures are all contributing to the <br>
+      breakthrough of Flaris.
+    </p>
+  </div>
+
+  <div class="main2">
+    <p class="spectecular">› SPECTACULARLY LOW VARIABLE
+      COSTS ‹</p>
+    <p class="extensive">Extensive flight testing confirmed
+      the jet’s exceptionally low fuel consumption. With
+      four people on board, the <br> cost of fuel is 60 groszy
+      per km ($0.14 / nm) per person. The operating cost
+      is 500$/h including fuel, <br> maintenance, replacement
+      parts, and the engine TAP BLUE program. A compact
+      but comfortable cabin allows <br> for a reduced aircraft
+      mass which increases overall flight economy and
+      range.</p>
+
+    <div class="aircraft">
+      <p class="air">Aircraft type</p>
+      <p class="craft">Cost of 1 mile</p>
+      <p class="type">Operating cost of one flight-hour </p>
+    </div>
+
+    <div class="lar">
+      <p class="lar1">Flaris LAR 01 </p>
+      <p class="lar2">1,20$</p>
+      <img class="lar3" src="./flaris/40.png" alt="">
+      <p class="lar4">450$</p>
+      <img class="lar5" src="./flaris/40.png" alt="">
+    </div>
+
+    <div class="single">
+      <p class="single1">Single-engine PJ</p>
+      <p class="single2">2,15$</p>
+      <img class="single3" src="./flaris/70.png" alt="">
+      <p class="single4">710$</p>
+      <img class="single5" src="./flaris/60.png" alt="">
+    </div>
+
+    <div class="twin-engine">
+      <p class="twin1">Twin-engine VLJ</p>
+      <p class="twin2">5,25$</p>
+      <img class="twin3" src="./flaris/100.png" alt="">
+      <p class="twin4">1100$</p>
+      <img class="twin5" src="./flaris/100.png" alt="">
+    </div>
+
+    <div class="turbo">
+      <p class="turbo1">Single-engine turbopro</p>
+      <p class="turbo2">1,70$</p>
+      <img class="turbo3" src="./flaris/70.png" alt="">
+      <p class="turbo4">520$</p>
+      <img class="turbo5" src="./flaris/40.png" alt="">
+    </div>
+
+    <div class="pro">
+      <p class="pro1">Twin-engine turboprop</p>
+      <p class="pro2">4,60$</p>
+      <img class="pro3" src="./flaris/60.png" alt="">
+      <p class="pro4">1250$</p>
+      <img class="pro5" src="./flaris/100.png" alt="">
+    </div>
+  </div>
+
+  <DIV class="main3">
+    <p class="lar01">› FLARIS & LAR 01 ‹</p>
+    <p class="lar02">The exceptional flight performance, economics,
+      and ecology of LAR 01 meet the expectations of modern <br>
+      aviation. In terms of design, it is a combination of
+      remarkably low mass, cutting-edge engine, and outstanding <br>
+      aerodynamics.</p>
+
+    <div class="ownlar">
+      <h3 class="own">OWN A LAR 01
+      </h3>
+      <div class="own1">
+        <p class="check">Check the offer</p>
+      </div>
+    </div>
+
+    <div class="become">
+      <h3 class="pilot">BECOME A PILOT</h3>
+      <div class="pilot1">
+        <p class="courses">Piloting courses</p>
+      </div>
+    </div>
+  </DIV>
+
+  <div class="main4">
+    <h2 class="news"> NEWS AND PRESS RELEASES </h2>
+    <div class="press">
+      <p class="more">Read more</p>
+    </div>
+  </div>
+
+  <div class="main5">
+
+    <img class="flarislogo" src="./flaris/LOGO_FLARIS_white-1.png" alt="">
+
+    <div class="about">
+      <div class="about1">
+        <p class="about01">Legal</p>
+        <p class="about02">About</p>
+        <p class="about03">Information</p>
+      </div>
+      <div class="gdpr">
+        <ul>
+          <li>GDPR</li>
+          <li>Privacy Policy</li>
+          <li>Cookies</li>
+        </ul>
+      </div>
+
+      <div class="press01">
+        <ul>
+          <li>Press room</li>
+          <li>Manufacturer</li>
+        </ul>
+      </div>
+
+      <div class="info5">
+        <ul>
+          <li>FAQ</li>
+          <li>news</li>
+        </ul>
+      </div>
+
+      <div class="sign5">
+        <p class="signup5">Sign up to our newsletter</p>
+        <div class="email">
+          <p class="email1">Email</p>
+        </div>
+        <div class="sign51">
+          <p class="signup52">Sign Up</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="line5"></div>
+    <div class="rights">
+      <p class="rights5">© 2019 Flaris. All rights reserved.
+      </p>
+      <img class="youtube" src="./flaris/icon_YT_32.png" alt="">
+      <img class="fb" src="./flaris/icon_FB_32.png" alt="">
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

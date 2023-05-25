@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            height: 750px;
+            background-image: url(./Flaris2/flarislar01_filtr.jpg);
+        }
+
+        .navbar {
+            width: 100%;
+            height: 120px;
+
+        }
+
+        .logo {
+            width: 300px;
+            height: 120px
+        }
+
+        .logo1 {
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+
+        .nav {
+            width: 800px;
+            height: 100px;
+            margin-left: 510px;
+            margin-top: -110px;
+        }
+
+        .nav ul {
+            list-style: none;
+        }
+
+        .nav ul li {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-left: 30px;
+        }
+
+        .nav ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        .nav1 {
+            margin-left: 700px;
+            top: 35px;
+            position: absolute;
+        }
+
+        .nav2 {
+            margin-left: 750px;
+            position: absolute;
+            top: 35px;
+        }
+
+        .the {
+            color: rgb(0, 170, 255);
+            font-size: 29px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .speed {
+            color: rgb(255, 255, 255);
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .main2 {
+            width: 100%;
+            height: 100px;
+        }
+
+        .main2 ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        .main2 ul li {
+            display: inline-block;
+            color: rgb(76, 76, 76);
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 45px;
+            margin-left: 10px;
+        }
+
+        .main3 {
+            width: 100%;
+            height: 650px;
+            background-color: rgb(218, 237, 251);
+
+        }
+
+        .plane3 {
+            margin-left: 250px;
+            margin-top: 244px;
+            width: 900px;
+            padding: 1px;
+        }
+
+        .the3 {
+            text-align: center;
+            color: rgb(51, 51, 51);
+            font-size: 29px;
+            line-height: 150px;
+        }
+
+        .the31 {
+            text-align: center;
+            color: rgb(102, 102, 102);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 23px;
+        }
+
+        .plane3 {
+
+            width: 1200px;
+            height: 500px;
+            margin-top: -70px;
+            margin-left: -4px;
+
+        }
+
+        .main4 {
+            width: 100%;
+            height: 1300px;
+        }
+
+        .plane4 {
+            margin-top: 20px;
+            margin-left: px;
+            width: 1190px;
+        }
+
+        .features4 {
+            text-align: center;
+            color: rgb(51, 51, 51);
+            font-size: 29px;
+            line-height: 29px;
+        }
+
+        .features41 {
+            text-align: center;
+            color: rgb(102, 102, 102);
+            font-size: 17px;
+            line-height: 23px;
+            margin-top: 50px;
+
+        }
+
+        .soar4 {
+            width: 550px;
+            height: 450px;
+            border: 1px solid grey;
+            margin-top: 20px;
+            margin-left: 50px;
+
+        }
+
+        .soar41 {
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            margin-top: 100px;
+            margin-left: 80px;
+            font-weight: 600;
+        }
+
+        .soar42 {
+            font: Helvetica, sans-serif;
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image4 {
+            width: 800px;
+            height: 450px;
+            margin-left: 600px;
+            margin-top: -327px;
+        }
+
+        .image41 {
+            width: 800px;
+            height: 450px;
+            margin-top: 50px;
+        }
+
+        .revo {
+            width: 550px;
+            height: 450px;
+            border: 1px solid grey;
+            margin-left: 850px;
+            margin-top: -455px;
+        }
+
+        .revo41 {
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            margin-top: 100px;
+            margin-left: 80px;
+            font-weight: 600;
+        }
+
+        .revo42 {
+            font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .main5 {
+            width: 100%;
+            height: 950px;
+            background-image: url(./Flaris2/kabina_filtr.jpg);
+            padding: 1px;
+            background-size: cover;
+        }
+
+        .cockpit5 {
+            color: rgb(255, 255, 255);
+            font-size: 29px;
+            font-weight: 700;
+            margin-top: 80px;
+            margin-left: 100px;
+            text-align: center;
+
+        }
+
+        .cockpit51 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 23px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .main6 {
+            width: 100%;
+            height: 1200px;
+        }
+
+        .safety6 {
+            text-align: center;
+            color: rgb(51, 51, 51);
+            font-size: 29px;
+            font-weight: 700;
+            margin-top: 50px;
+        }
+
+        .safety61 {
+            text-align: center;
+            color: rgb(102, 102, 102);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 23px;
+            margin-top: 40px;
+        }
+
+        .img6 {
+            width: 800px;
+            height: 450px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        .lift6 {
+            width: 550px;
+            height: 450px;
+            border: 1px solid grey;
+            margin-left: 900px;
+            margin-top: -455px;
+        }
+
+        .lift61 {
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            text-align: center;
+            margin-top: 100px;
+            font-weight: 550;
+        }
+
+        .lift62 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .safety63 {
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 550;
+        }
+
+        .lift64 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .navigate6 {
+            width: 550px;
+            height: 450px;
+            border: 1px solid grey;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+
+        .navigate61 {
+            margin-left: 50px;
+            margin-top: 70px;
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+
+        .navigate62 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            line-height: 23px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .img66 {
+            width: 800px;
+            height: 450px;
+            margin-top: -300px;
+            margin-left: 600px;
+        }
+
+        .fuse6 {
+            background-image: url(./Flaris2/kadlub_filtr.jpg);
+            width: 100%;
+            height: 1000px;
+            background-size: cover;
+            margin-top: 30px;
+            padding: 1px;
+        }
+
+        .fuse61 {
+            font-size: 29px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .fuse62 {
+            text-align: center;
+            font-size: 16px;
+            font-size: 500;
+            line-height: 23px;
+            margin-top: 20px;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .pro6 {
+            width: 100%;
+            height: 800px;
+
+        }
+
+        .pro61 {
+            text-align: center;
+            margin-top: 70px;
+            font-size: 29px;
+            font-weight: 700;
+
+        }
+
+        .pro62 {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+
+        .uny6 {
+            width: 550px;
+            height: 450px;
+            margin-left: 50px;
+
+            font-size: 18px;
+            font-weight: 700;
+            border: 1px solid rgb(51, 51, 51);
+            margin-top: 70px;
+        }
+
+        .uny61 {
+            text-align: center;
+            margin-top: 70px;
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+
+        .uny62 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 23px;
+
+        }
+
+        .naped6 {
+            width: 800px;
+            height: 450px;
+            margin-left: 600px;
+            margin-top: -350px;
+        }
+
+        .main7 {
+            width: 100%;
+            height: 950px;
+            background-image: url(./Flaris2/design_filtr.jpg);
+            padding: 1px;
+        }
+
+        .exterior7 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 29px;
+            font-weight: 700;
+            margin-top: 100px;
+        }
+
+        .exterior71 {
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 23px;
+        }
+
+        .main8 {
+            width: 100%;
+            height: 700px;
+            padding: 1px;
+
+        }
+
+        .spec8 {
+            text-align: center;
+            color: rgb(51, 51, 51);
+            font-size: 29px;
+            font-weight: 700;
+            margin-top: 70px;
+
+        }
+
+        .manuf8 {
+            margin-top: 50PX;
+            margin-left: 100PX;
+            width: 350px;
+            height: 400px;
+            border: 1px solid grey;
+            margin-top: -490px;
+        }
+
+        .manuf81 {
+            font-size: 17px;
+            color: rgb(81, 82, 84);
+            text-align: center;
+            margin-top: 50PX;
+        }
+
+        .manuf82 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        .manuf83 {
+            border: .5px solid rgb(154, 154, 154);
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 122px;
+        }
+
+        .manuf84 {
+            font-size: 17px;
+            color: rgb(81, 82, 84);
+            text-align: center;
+            margin-top: 20PX;
+            margin-left: -50px;
+        }
+
+        .manuf85 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 120px;
+        }
+
+        .manuf86 {
+            border: .5px solid rgb(154, 154, 154);
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 122px;
+        }
+
+        .manuf87 {
+            font-size: 17px;
+            color: rgb(81, 82, 84);
+            text-align: center;
+            margin-top: 20PX;
+            margin-left: -50px;
+        }
+
+        .manuf88 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 120px;
+        }
+
+        .manuf89 {
+            border: .5px solid rgb(154, 154, 154);
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 122px;
+        }
+
+        .manuf90 {
+            font-size: 17px;
+            color: rgb(81, 82, 84);
+            text-align: center;
+            margin-top: 20PX;
+            margin-left: -50px;
+        }
+
+        .manuf91 {
+            color: rgb(81, 82, 84);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 120px;
+        }
+
+        .manuf92 {
+            width: 350px;
+            height: 400px;
+            margin-left: 390px;
+            margin-top: -330px;
+        }
+
+        .manuf93 {
+            width: 1300px;
+            background-size: cover;
+            height: 550px;
+            margin-left: 200px;
+
+        }
+
+        .main9 {
+            background-color: rgb(30, 30, 30);
+            width: 100%;
+            height: 700px;
+            padding: 1px;
+        }
+
+        .spec9 {
+            width: 270px;
+            height: 450px;
+            border: 1px solid grey;
+            margin-left: 50px;
+            margin-top: 20px;
+
+        }
+
+        .spec91 {
+            margin-left: 20px;
+            line-height: 35px;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .spec92 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .spec93 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 17px;
+        }
+
+        .spec94 {
+            border: .5px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .spec95 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .spec96 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .spec97 {
+            border: 1px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .spec10 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .spec11 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .power9 {
+            width: 270px;
+            height: 450px;
+            border: 1px solid grey;
+
+
+            margin-left: 400px;
+            margin-top: -450px;
+        }
+
+        .power91 {
+            margin-left: 20px;
+            margin-top: 5px;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .power92 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .power93 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .power94 {
+            border: 1px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .power95 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .power96 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .power97 {
+            border: 1px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .power98 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+
+        }
+
+        .power99 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .per9 {
+            border: 1px solid grey;
+            width: 700px;
+            height: 450px;
+            margin-left: 750px;
+            margin-top: -450px;
+        }
+
+        .per91 {
+            margin-left: 20px;
+            margin-top: 5px;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .per92 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .per93 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .power94 {
+            border: 1px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .power95 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .power96 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .power97 {
+            border: 1px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .power98 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 70px;
+        }
+
+        .power99 {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 15px;
+        }
+
+        .power100 {
+            margin-left: 500px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            margin-top: -260px;
+        }
+
+        .power101 {
+            margin-left: 500px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 700;
+            margin-top: 20px;
+
+
+        }
+
+        .power102 {
+            border: .5px solid rgb(255, 255, 255);
+            width: 40px;
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+
+        .power103 {
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+
+        .power104 {
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 500px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+
+        .main10 {
+            margin-top: -100px;
+            width: 100%;
+            height: 1050px;
+            background-image: url(./Flaris2/flarislar01_filtr.jpg)
+        }
+
+        .lar01 {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 29px;
+            font-weight: 700;
+            font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        .lar02 {
+            text-align: center;
+            margin-top: 80px;
+            font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+            font-size: 17px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+        }
+
+        .ownlar {
+            width: 300px;
+            height: 200px;
+
+            margin-top: 500px;
+            margin-left: 400px;
+            padding: 1px;
+        }
+
+        .own {
+            font-size: 29px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            margin-left: 45px;
+            margin-top: 100px;
+        }
+
+        .own1 {
+            width: 250px;
+            height: 60px;
+            border: 1px solid rgb(0, 161, 219);
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+
+        .check {
+            text-align: center;
+            font-size: 17px;
+            font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+            color: rgb(0, 161, 219);
+            margin-top: 20px;
+        }
+
+        .become {
+            width: 300px;
+            height: 200px;
+
+            margin-top: -200px;
+            margin-left: 800px;
+            padding: 1px;
+        }
+
+        .pilot {
+            font-size: 29px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            margin-left: 25px;
+            margin-top: 100px;
+        }
+
+        .pilot1 {
+            width: 250px;
+            height: 60px;
+            border: 1px solid rgb(0, 161, 219);
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+
+        .courses {
+            text-align: center;
+            font-size: 17px;
+            font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+            color: rgb(0, 161, 219);
+            margin-top: 20px;
+        }
+
+        .main11 {
+            width: 100%;
+            height: 800px;
+        }
+
+        .img11 {
+            width: 600px;
+            height: 700px;
+        }
+
+        .ques11 {
+            color: rgb(57, 55, 57);
+            font-size: 29px;
+            font-weight: 700;
+            margin-left: 650px;
+            margin-top: -600px;
+        }
+
+        .ques12 {
+            width: 800px;
+            height: 550px;
+
+            margin-left: 650px;
+
+        }
+
+        .ques13 {
+            border: 1px solid rgb(239, 239, 239);
+            width: 350px;
+            height: 50px;
+            margin-top: 100px;
+            margin-left: 20px;
+        }
+
+        .first11 {
+            color: rgb(57, 55, 57);
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        .name11 {
+            border: 1px solid rgb(239, 239, 239);
+            width: 350px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .name12 {
+            color: rgb(57, 55, 57);
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        .name13 {
+            border: 1px solid rgb(239, 239, 239);
+            margin-left: 20px;
+            margin-top: 15px;
+            width: 720px;
+            height: 150px;
+
+
+        }
+
+        .name14 {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .email11 {
+            border: 1px solid rgb(239, 239, 239);
+            width: 350px;
+            height: 50px;
+            margin-top: -295px;
+            margin-left: 390px;
+        }
+
+        .email12 {
+            color: rgb(57, 55, 57);
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        .phone11 {
+            border: 1px solid rgb(239, 239, 239);
+            width: 350px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 390px;
+        }
+
+        .phone12 {
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        .math12 {
+            width: 120px;
+            height: 60px;
+
+            margin-top: 30px;
+        }
+
+        .math11 {
+            width: 300px;
+            height: 200px;
+            margin-left: 450px;
+            margin-top: 200px;
+
+        }
+
+        .math12 {
+            width: 60px;
+            height: 30px;
+            margin-left: 80px;
+            margin-top: 20px;
+
+        }
+
+
+
+
+        .math14 {
+            width: 60px;
+            height: 60px;
+            background-color: rgb(238, 238, 238);
+            margin-top: -60px;
+            margin-left: 121px;
+
+        }
+
+        .math15 {
+            border: 1px solid rgb(0, 170, 255);
+            width: 80px;
+            height: 60px;
+            margin-left: 210px;
+            margin-top: -60px;
+        }
+
+        .math16 {
+            color: rgb(0, 170, 255);
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .main12{
+            width: 100%;
+      height: 700px;
+      background-color: rgb(30, 30, 30);
+      margin-top: -100px;
+
+        }
+        .logoflaris {
+      width: 200px;
+      height: 70px;
+      border: 1px solid white;
+    }
+
+    .flarislogo {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    .about {
+      width: 700px;
+      height: 450px;
+
+      margin-left: 750px;
+      padding: 1px;
+
+    }
+
+    .about1 {
+      width: 698px;
+      height: 50px;
+
+      margin-top: 2px;
+      margin-left: 2px;
+    }
+
+    .about01 {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 500;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+    }
+
+    .about02 {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 700;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      margin-left: 300px;
+      margin-top: -15px;
+    }
+
+    .about03 {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 700;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      margin-left: 600px;
+      margin-top: -15px;
+    }
+
+    .gdpr {
+      width: 150px;
+      height: 150px;
+
+    }
+
+    .gdpr ul {
+      list-style: none;
+    }
+
+    .gdpr ul li {
+      font-family: Yantramanav, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(204, 204, 204);
+      line-height: 30px;
+
+    }
+
+    .press01 {
+      width: 150px;
+      height: 150px;
+
+      margin-left: 300px;
+      margin-top: -150px;
+    }
+
+    .press01 ul {
+      list-style: none;
+    }
+
+    .press01 ul li {
+      font-family: Yantramanav, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(204, 204, 204);
+      line-height: 30px;
+    }
+
+    .info5 {
+      width: 150px;
+      height: 150px;
+
+      margin-left: 550px;
+      margin-top: -150px;
+    }
+
+    .info5 ul {
+      list-style: none;
+    }
+
+    .info5 ul li {
+      font-family: Yantramanav, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(204, 204, 204);
+      line-height: 30px;
+      margin-left: 50px;
+
+    }
+
+    .sign5 {
+      width: 700px;
+      height: 220px;
+      padding: 1px;
+    }
+
+    .signup5 {
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+    }
+
+    .email {
+      width: 700px;
+      height: 50px;
+
+      background-color: white;
+      margin-top: 70px;
+      border-radius: 3px;
+      padding: 1px;
+    }
+
+    .email1 {
+      color: grey;
+      margin-left: 30px;
+      margin-top: 25px;
+      margin-top: 15px;
+    }
+
+    .sign51 {
+      width: 700px;
+      height: 50px;
+      margin-top: 15px;
+      border: 2px solid white;
+      border-radius: 3px;
+    }
+
+    .signup52 {
+      color: white;
+      text-align: center;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 34px;
+
+    }
+
+    .line5 {
+      width: 1400px;
+      border: 1px solid white;
+      margin-left: 50px;
+    }
+
+    .rights {
+      width: 1400px;
+      height: 50px;
+      
+      margin-top: 20px;
+      margin-left: 50px;
+      padding: 1px;
+    }
+
+    .rights5 {
+      margin-top: 10px;
+      color: grey;
+      font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+      padding: 1px;
+    }
+
+    .youtube {
+      margin-left: 1310px;
+      position: absolute;
+  
+
+    }
+    .fb{
+      margin-left: 1350px;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img class="logo1" src="./flaris/LOGO_FLARIS-1.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="./Flaris2.html">AIRCRAFT</a></li>
+                    <li><a href="./Flaris3.html">PILOTING COURSES</a></li>
+                    <li><a href="./Flaris4.html">PURCHASE</a></li>
+                    <li><a href="">NEWS</a></li>
+                    <li><a href="">OUR STORY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <img class="nav1" src="./flaris/en.png" alt="">
+                <img class="nav2" src="./flaris/pl.png" alt="">
+            </div>
+        </div>
+
+        <p class="the"> › THE FASTEST PERSONAL JET ‹ </p>
+        <p class="speed">SPEED – RANGE – FREEDOM – GRASS
+            AIRSTRIPS TAKE-OFF</p>
+
+    </div>
+
+    <div class="main2">
+        <p>
+        <ul>
+            <li>Feature</li>
+            <li>Safety</li>
+            <li>Fuselage</li>
+            <li>Specification</li>
+            <li>Buy</li>
+        </ul>
+        </p>
+
+    </div>
+
+    <div class="main3">
+
+        <p class="the3">› FLARIS LAR 01 ‹</p>
+        <p class="the31">The first and only aircraft of its type
+            in the world, FLARIS LAR 01 unites jet-tier performance
+            with levels of <br> safety and economic accessibility
+            previously reserved solely for small general
+            aviation units. The cutting-edge <br> construction
+            made overcoming many traditional limitations
+            possible and resulted in creation of an <br>
+            internationally exceptional aircraft!</p>
+        <img class="plane3" src="./Flaris2/fota-copy1-1.png" alt="">
+    </div>
+
+    <div class="main4">
+
+        <img class="plane4" src="./Flaris2/fota-copy-2-1.png" alt="">
+        <p class="features4">› FEATURES ‹</p>
+        <p class="features41">FLARIS LAR 1 is a single-engine jet aircraft
+            with lightweight, composite construction. It creates a
+            new <br> category of small, agile jets, ideal for quick
+            movement for any purpose.</p>
+
+        <div class="soar4">
+            <p class="soar41">SOAR TO A HIGHER LEVEL OF COMFORT</p>
+            <p class="soar42">The intuition of piloting FLARIS LAR
+                1 is apparent in <br> its minimal operations, secure
+                stall, and automatic <br> spin recovery. The jet was
+                designed to be flown by a <br> single pilot
+                (with Garmin G600 Txi radio and <br> navigation
+                system and FFAS® interactive onboard <br> computer
+                acting as a copilot). The only qualification <br>
+                required to fly FLARIS LAR 1 is a Private Pilot <br>
+                License (PPL).</p>
+
+            <img class="image4" src="./Flaris2/wlasciwosci_przelomowy.jpg" alt="">
+
+            <img class="image41" src="./Flaris2/wlasciwosci_przyjazny.jpg" alt="">
+
+            <div class="revo">
+                <p class="revo41">REVOLUTIONARY AND ENVIRONMENTALLY
+                    FRIENDLY AVIATION</p>
+                <p class="revo42">FLARIS LAR 1 is one tonne lighter
+                    than VLJ aircraft and <br>
+                    initiates a brand new category of
+                    High-Speed Personal <br> Jet. Light construction,
+                    extraordinary aerodynamics, <br> and a cutting-edge
+                    FJ33-5A engine operated with an <br> ECU computer
+                    allowed a significant reduction of fuel <br>
+                    consumption and exhaust gas emission.
+                    Consequently, <br> FLARIS LAR 1 is environmentally
+                    friendly.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main5">
+        <p class="cockpit5">› COCKPIT ‹</p>
+        <p class="cockpit51">FLARIS LAR 1 is equipped with a versatile
+            Garmin G600 Txi radio and navigation system that acts as
+            a copilot and minimizes the number of <br> equipment
+            distracting the pilot.</p>
+    </div>
+
+    <div class="main6">
+        <p class="safety6">› SAFETY ‹</p>
+        <p class="safety61">It is a light jet aircraft of a completely
+            new type,
+            being approachable for amateurs
+            and satisfying the expectations of experienced
+            pilots at <br> the same time</p>
+        <img class="img6" src="./Flaris2/bezpieczenstwo_bierne_filtr.jpg" alt="">
+
+        <div class="lift6">
+            <p class="lift61">LIFT-TO-DRAG RATIO
+            </p>
+            <p class="lift62">Thanks to its exceptional lift-to-drag ratio
+                of 18 which is <br> comparable to that of a glider and a
+                drop-shaped semi- <br> monocoque fuselage, FLARIS LAR 1 is
+                able to glide 18 <br> kilometers for every kilometer of
+                altitude loss in <br> a power- off setting. This gives the
+                pilot a <br> lot of time to find a landing site in case of
+                emergency. Just a <br> 250-meter-long grass airstrip will
+                enable you to perform a safe <br> landing, thanks to a solid
+                landing gear.</p>
+            <p class="safety63">SAFETY SYSTEM</p>
+            <p class="lift64">FLARIS LAR 1 is equipped
+                with a modern parachute <br> rescue system for
+                the whole aircraft.</p>
+        </div>
+
+        <div class="navigate6">
+            <p class="navigate61">NAVIGATION SYSTEM </p>
+            <p class="navigate62">The avionic system of Flaris LAR uses
+                a popular G600Txi <br> system which provides maximal
+                safety and convenience <br> for the user. The GTN-750
+                navigation system (GPS) <br> placed in the center of
+                the dashboard, combines <br> navigating function with
+                operating additional devices, <br> including a radio
+                station and a transponder. It is <br> equipped with
+                a touch screen which helps to navigate a <br>
+                user-friendly icon menu.</p>
+            <img class="img66" src="./Flaris2/Flaris_samolot_nawigacja_IMG_6507.jpg" alt="">
+
+        </div>
+    </div>
+    <div class="fuse6">
+        <p class="fuse61">› FUSELAGE ‹</p>
+        <p class="fuse62">FLARIS LAR 1 is ultra-light and
+            durable thanks to its hybrid structure. It is
+            made mostly of pre-impregnated carbon fibers,
+            found in the most modern <br> long-haul aircraft,
+            like A350 or Dreamliner. To ensure highest
+            durability and safety, the most vital large
+            elements of the construction (wing spars, <br>
+            landing-gear struts, supports of control
+            surfaces, etc.) are milled from aluminum,
+            using numerical control technology. </p>
+    </div>
+
+    <div class="pro6">
+        <p class="pro61">› PROPULSION ‹</p>
+        <p class="pro62">The solid and reliable FJ33-5 engine
+            makes the Flaris jet safer than other light aircraft.
+            Turbofan engines are much more reliable than
+            reciprocating <br> engines, and the FJ33 turbofan
+            employed on Flaris is especially reliable due
+            to its mature and robust design. The design of
+            FJ33 is based directly on <br> the larger FJ44 engine
+            family which accumulated over 10,000,000 flight
+            hours in total, so the engine concept has proven
+            itself to be trustworthy. The <br> titanium fan was
+            proven so tough that Williams International
+            covers foreign object damage (FOD) costs <br> in
+            its versatile and convenient engine maintenance
+            program called TAP Blue.</p>
+
+        <div class="uny6">
+            <p class="uny61">UNYIELDING QUALITY</p>
+            <p class="uny62">All parts and labor needed
+                for the maintenance of FJ33 <br> engine are
+                provided by authorized service centers
+                of <br> Williams International. To enhance
+                safety, all of our <br> engines have been
+                included in the Total Assurance <br> Program
+                (TAP Blue) by Williams lnternational.
+                TAP Blue <br> provides complete maintenance
+                of the engine, and there <br> are no added
+                costs for the customer beyond a small
+                fee <br> per flight-hour, so the customers
+                are keen to act quickly <br> in bringing
+                any concerns to the service center,
+                and to <br> keep all of their engine
+                inspections up to date. </p>
+            <img class="naped6" src="./Flaris2/naped_naped_filtr.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="main7">
+
+        <p class="exterior7">› EXTERIOR DESIGN ‹</p>
+        <p class="exterior71">Flaris LAR1 introduces new quality
+            to private air transport. To complement the idea of
+            creating means of private transportation, we encourage
+            the <br> owners to have their jet painted according to their
+
+            nature of the aircraft and manifest their <br> personality.</p>
+    </div>
+
+    <div class="main8">
+        <p class="spec8">SPECIFICATION</p>
+        <img class="manuf93" src="./Flaris2/specyfikacja.jpg" alt="">
+        <div class="manuf8">
+            <P class="manuf81">Manufacturer</P>
+            <p class="manuf82">Metal-Master</p>
+            <div class="manuf83"></div>
+            <p class="manuf84">Length</p>
+            <p class="manuf85">8,32 m / 27ft 4in</p>
+            <div class="manuf86"></div>
+            <p class="manuf87">Height</p>
+            <p class="manuf88">2,43 m / 7ft 12in </p>
+            <div class="manuf89"></div>
+            <p class="manuf90">Span</p>
+            <p class="manuf91">8,68 m / 28ft 6in</p>
+            <img class="manuf92" src="./Flaris2/PREZENTACJA_ELEMENTS_rzuty_v2.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="main9">
+
+        <div class="spec9">
+            <pc class="spec91">Specification</p>
+                <p class="spec92">Number of seats</p>
+                <p class="spec93">5 (1 pilot + 4 passengers) </p>
+                <div class="spec94"></div>
+                <p class="spec95">Empty weight</p>
+                <p class="spec96">900 kg</p>
+                <div class="spec97"></div>
+                <p class="spec10">Takeoff mass </p>
+                <p class="spec11">1850 kg </p>
+        </div>
+
+        <div class="power9">
+            <p class="power91">Power</p>
+            <p class="power92">Engine</p>
+            <p class="power93">Williams FJ33-5A </p>
+            <div class="power94"></div>
+            <p class="power95">Static thrust</p>
+            <p class="power96">8,2 kN</p>
+            <div class="power97"></div>
+            <p class="power98">Avionics</p>
+            <p class="power99">G 600 Txi System and FFAS® interactive
+                onboard computer </p>
+        </div>
+
+        <div class="per9">
+            <p class="per91">Performance</p>
+            <p class="per92">Cruise speed</p>
+            <p class="per93">769 km/h</p>
+            <div class="power94"></div>
+            <p class="power95">Stall speed</p>
+            <p class="power96">115 km/h</p>
+            <div class="power97"></div>
+            <p class="power98">Service ceiling</p>
+            <p class="power99">7620 m</p>
+            <p class="power100">Range</p>
+            <p class="power101">max: 3200 km</p>
+            <div class="power102"></div>
+            <p class="power103">Aerodynamics</p>
+            <p class="power104">L/D=18 </p>
+
+        </div>
+
+
+    </div>
+
+    <div class="main10">
+        <p class="lar01">› FLARIS & LAR 01 ‹</p>
+        <p class="lar02">The exceptional flight performance, economics,
+            and ecology of LAR 01 meet the expectations of modern <br>
+            aviation. In terms of design, it is a combination of
+            remarkably low mass, cutting-edge engine, and outstanding <br>
+            aerodynamics.</p>
+
+        <div class="ownlar">
+            <h3 class="own">OWN A LAR 01
+            </h3>
+            <div class="own1">
+                <p class="check">Check the offer</p>
+            </div>
+        </div>
+
+        <div class="become">
+            <h3 class="pilot">BECOME A PILOT</h3>
+            <div class="pilot1">
+                <p class="courses">Piloting courses</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main11">
+        <img class="img11" src="./Flaris2/masz_pytania_filtr.jpg" alt="">
+        <p class="ques11">› GOT QUESTIONS? CONTACT US</p>
+
+        <div class="ques12">
+
+            <div class="ques13">
+                <p class="first11">First Name</p>
+            </div>
+
+            <div class="name11">
+                <p class="name12">Last Name</p>
+            </div>
+
+            <div class="name13">
+                <p class="name14">Your Mesage</p>
+            </div>
+
+            <div class="email11">
+                <p class="email12">E-mail</p>
+            </div>
+
+            <div class="phone11">
+                <p class="phone12">Phone Number</p>
+            </div>
+
+            <div class="math11">
+
+                <div class="math12"> 4+8=</div>
+
+                <div class="math14"></div>
+                <div class="math15">
+                    <p class="math16">Send</p>
+                </div>
+            </div>
+         </div>
+ </div>
+
+ <div class="main12">
+    <img class="flarislogo" src="./Flaris2/LOGO_FLARIS_white-1.png" alt="">
+
+    <div class="about">
+      <div class="about1">
+        <p class="about01">Legal</p>
+        <p class="about02">About</p>
+        <p class="about03">Information</p>
+      </div>
+      <div class="gdpr">
+        <ul>
+          <li>GDPR</li>
+          <li>Privacy Policy</li>
+          <li>Cookies</li>
+        </ul>
+      </div>
+
+      <div class="press01">
+        <ul>
+          <li>Press room</li>
+          <li>Manufacturer</li>
+        </ul>
+      </div>
+
+      <div class="info5">
+        <ul>
+          <li>FAQ</li>
+          <li>news</li>
+        </ul>
+      </div>
+
+      <div class="sign5">
+        <p class="signup5">Sign up to our newsletter</p>
+        <div class="email">
+          <p class="email1">Email</p>
+        </div>
+        <div class="sign51">
+          <p class="signup52">Sign Up</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="line5"></div>
+    <div class="rights">
+      <p class="rights5">© 2019 Flaris. All rights reserved.
+      </p>
+      <img class="youtube" src="./flaris/icon_YT_32.png" alt="">
+      <img class="fb" src="./flaris/icon_FB_32.png" alt="">
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
